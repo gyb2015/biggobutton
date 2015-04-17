@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
                     System.out.print(num);
                     Button innerButton = (Button) findViewById(R.id.MyButton);
                     String numString = String.valueOf(num);
-                    innerButton.setText("You have pushed me " + numString + " times");
+                    innerButton.setText("You have pushed me " + numString + " times!");
 
                     }
                 }
