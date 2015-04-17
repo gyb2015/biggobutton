@@ -13,15 +13,19 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+    
+    // create a button    
         num = 0;
         Button MyButton = (Button)findViewById(R.id.MyButton);
-
+    
+    // give the attribute for the button
         MyButton.setTextSize(40);
-
+    
+    // give an event listener to handle the click
         MyButton.setOnClickListener(
                 new View.OnClickListener(){
-
+    
+    // raise up the numbers after the click
                 @Override
                 public void onClick(View v){
                     num++;
