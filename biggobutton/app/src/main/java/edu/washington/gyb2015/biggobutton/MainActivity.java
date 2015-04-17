@@ -17,10 +17,7 @@ public class MainActivity extends ActionBarActivity {
     // create a button    
         num = 0;
         Button MyButton = (Button)findViewById(R.id.MyButton);
-    
-    // give the attribute for the button
-        MyButton.setTextSize(40);
-    
+
     // give an event listener to handle the click
         MyButton.setOnClickListener(
                 new View.OnClickListener(){
